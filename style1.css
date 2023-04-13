@@ -1,0 +1,286 @@
+body{
+background-image: url("imgs/dark-green-palm-leaves-desktop-computer-fm91rvce120brlkf.jpg");
+
+
+
+}
+
+
+
+.p1{
+border-radius: 20px;
+transform: scale();
+position: relative;
+left: -700px;
+top:-270px;
+}
+
+.p2{
+    border-radius: 20px;
+    transform: scale();
+    position: relative;
+    right:-800px;
+    top:-470px;
+    
+}
+
+.p3{
+     border-radius: 20px;
+     transform: scale();
+     position: relative;
+     top:-830px;
+        
+}
+
+.p4{
+     border-radius: 20px;
+     transform: scale();
+     position: relative;
+     left: -500px;
+     top:-570px;
+
+}
+
+.d1{
+    transform: scale(0.5);
+
+ 
+}
+
+.d2{
+    transform: scale(0.5);
+
+    position: absolute;
+    top: 600px;
+}
+
+.d3{
+    transform: scale(0.5);
+
+    position:relative;
+    top: 70px;
+
+}
+
+.d4{
+    transform: scale(0.5);
+
+    position: absolute;
+    top: 1750px;
+}
+
+.p1{
+    animation-name: right1;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-fill-mode:forwards;
+    animation-iteration-count: 1;
+
+    
+}
+
+.p2{
+    animation-name: left1;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-fill-mode:forwards;
+    animation-iteration-count: 1;
+
+}
+
+.p3{
+
+    position: relative;
+    left: 80px;
+    animation-name: right1;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-fill-mode:forwards;
+    animation-iteration-count: 1;
+
+}
+
+.p4{
+    animation-name: right1;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+
+}
+
+.n1{
+    color: aliceblue;
+    font-size:  50px;
+    position: relative;
+    bottom: 100px;
+
+    animation-name: left1;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-fill-mode:forwards;
+    animation-iteration-count: 1;
+
+
+}
+
+.n2{
+    color: aliceblue;
+    font-size:  50px;
+    position: relative;
+    left: 500px;
+    bottom: 300px;
+
+    animation-name: right1;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-fill-mode:forwards;
+    animation-iteration-count: 1;
+
+
+}
+
+.n3{
+    color: aliceblue;
+    font-size: 50px;
+    position: relative;
+    bottom: 350px;
+
+    animation-name: left1;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-fill-mode:forwards;
+    animation-iteration-count: 1;
+
+
+}
+
+.n4{
+    color: aliceblue;
+    font-size:  50px;
+    position: relative;
+    bottom: 400px;
+
+    animation-name: left1;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-fill-mode:forwards;
+    animation-iteration-count: 1;
+
+
+}
+
+.de1{
+    color: aliceblue;
+    font-size: 34px;
+    position: relative;
+    left: 400px;
+    top: 100px;
+    word-spacing: 10px;
+    line-height: 50px;
+    text-align: right;
+
+}
+
+.de2{
+    color: aliceblue;
+    font-size: 34px;
+    position: relative;
+    left: -600px;
+    top: -100px;
+    word-spacing: 10px;
+    line-height: 50px;
+    
+}
+
+.de3{
+    color: aliceblue;
+    font-size: 34px;
+    position: relative;
+    left: -700px;
+    top: -200px;
+    word-spacing: 10px;
+    line-height: 50px;
+    
+}
+
+.de4{
+    color: aliceblue;
+    font-size: 34px;
+    position: relative;
+    right: -450px;
+    top: -200px;
+    word-spacing: 10px;
+    line-height: 50px;
+    text-align: right;
+}
+
+.box1{
+    z-index:-5;
+    background-color:rgba(4, 112, 36, 0.523) ;
+    height: 600px;
+    width: 500px;
+
+    position: absolute;
+    top: 150px;
+    left: 700px;
+    
+}
+
+.box2{
+    z-index: -5;
+    background-color:rgba(4, 112, 36, 0.523) ;
+    height: 400px;
+    width: 500px;
+
+    position: absolute;
+    top: 800px;
+    left: 50px;
+   
+    
+}
+
+.box3{
+    z-index: -5;
+    background-color:rgba(4, 112, 36, 0.523) ;
+    height: 500px;
+    width: 400px;
+
+    position: absolute;
+    top: 1250px;
+    left: 700px;
+    
+    
+    
+}
+
+.box4{
+    z-index: -5;
+    background-color:rgba(4, 112, 36, 0.523) ;
+    height: 400px;
+    width: 450px;
+
+    position: absolute;
+    top: 1780px;
+    left: 380px;
+       
+    
+}
+
+@keyframes left1{
+    from{}
+    to{transform: translateX(-100px);}
+}
+
+@keyframes right1{
+    from{}
+    to{transform: translateX(100px);}
+}

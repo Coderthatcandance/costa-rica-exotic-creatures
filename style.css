@@ -1,0 +1,271 @@
+body{
+
+    background-image: url("imgs/dark-green-palm-leaves-desktop-computer-fm91rvce120brlkf.jpg");
+    
+    overflow: hidden;
+}
+
+.img1{
+
+    background-color: rgba(4, 112, 36, 0.523);
+    width: 700px;
+    height: 100px;
+    transform: rotate(-90deg);
+    position: absolute;
+    left: -290px;
+    top: 220px;
+    border-radius: 8px;
+    cursor:default;
+ 
+
+}
+
+
+.img1:hover{
+    transition-duration: 0.5s;
+    transition-delay: 0s;
+    transition-timing-function: ease-out;
+
+
+    width: 780px;
+    height: 100px;
+    position: absolute;
+    left: -330px;
+    top: 220px;
+
+}
+
+.img1:not(:hover){
+
+    transition-duration: 0.5s;
+    transition-delay: 0s;
+    transition-timing-function: ease-out;
+
+    width: 700px;
+    height: 100px;
+    transform: rotate(-90deg);
+    position: absolute;
+    left: -290px;
+    top: 220px;
+}
+
+
+.side_topic{
+   position: relative;
+   left: 30px;
+   color: aliceblue;
+}
+
+
+.base1{
+
+    position: relative;
+    left: 120px;
+    top: 300px;
+    cursor: default;
+
+}
+
+.based{
+    color: aliceblue;
+    font-size: 18px;
+    word-spacing:4px ;
+    line-height: 1.3;
+}
+
+.line{
+    background-color: rgba(37, 40, 38, 0.814);
+    width: 900px;
+    height: 20px;
+    position: relative;
+    top: -10px;
+    border-radius: 5px;
+    z-index: 2;
+}
+
+
+.based:hover~.line{
+    
+    transition-duration: 1s;
+    transition-delay: 0s;
+    transition-timing-function: ease-out;
+
+
+    width: 950px;
+
+     
+}
+
+.based:not(:hover)~.line{
+    transition-duration: 1s;
+    transition-delay: 0s;
+    transition-timing-function: ease-out;
+    width: 900px;
+     
+}
+
+
+
+.line1{
+    
+    background-color: rgba(37, 40, 38, 0.814);
+    height: 15px;
+    width: 150px;
+    transform: rotate(-90deg);
+    position: absolute;
+    left:43px;
+    top: 0px;
+    border-radius: 5px;
+
+
+    animation-name: line1;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-fill-mode:forwards;
+    animation-iteration-count: 1;
+}
+
+
+.base2{
+    height: 200px;
+    width: 550px;
+    background-color:rgba(4, 112, 36, 0.523) ;
+    position: absolute;
+    right: 0px;
+    bottom:0px;
+    border-radius: 12px;
+
+    animation-name: upbox;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    cursor: default;
+}
+
+
+
+.based1{
+    color: aliceblue;
+    position: absolute;
+    left: 12px;
+    top: 15px;
+    cursor: default;
+
+    animation-name: upbox;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    cursor: default;
+
+    
+
+    
+}
+
+.based2{
+color: aliceblue;
+position: absolute;
+top: 100px;
+right: 12px;
+text-align: right;
+font-size: 14.5px;
+cursor: default;
+
+animation-name: upbox;
+animation-duration: 5s;
+animation-timing-function: ease-in-out;
+animation-delay: 0s;
+animation-fill-mode: forwards;
+animation-iteration-count: 1;
+cursor: default;
+
+
+
+}
+
+.based3{
+    color: aliceblue;
+    font-size: large;
+    cursor: default;
+
+    position: absolute;
+    left: 980px;
+    
+    
+}
+
+.link:link{
+color: rgba(7, 240, 77, 0.704) ;
+text-decoration: none;
+
+
+}
+.link:visited{
+    color:rgba(7, 240, 77, 0.704);
+    text-decoration: none;
+
+}
+.link:active{
+    color: rgba(4, 112, 36, 0.523)  ;
+    text-decoration: none;
+
+}
+
+
+.a{
+    position: relative;
+    top:-100px;
+}
+
+.b{
+    position: relative;
+    top:-30px;
+}
+
+.c{
+    position: relative;
+    top:40px;
+}
+
+.d{
+    position: relative;
+    top:100px;
+}
+
+.e{
+    position: relative;
+    top:100px;
+}
+
+
+
+@keyframes line1{
+
+from{}
+
+to{
+    height: 15px;
+    width: 640px;
+    position: absolute;
+    left:-202px;
+}
+}
+
+@keyframes upbox{
+
+    from{}
+    to{
+        height: 400px;
+    
+    }
+}
+
+
+
+
+
